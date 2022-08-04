@@ -1,5 +1,13 @@
 public class Example {
     public static void main(String[] args) {
-        System.out.println("hello world");
+   int a = 5;
+   int b = 7;
+
+        System.out.println(add(a, b));
     }
+
+    public static int add (int a, int b){
+        return a + b;
+    }
+
 }
